@@ -12,7 +12,7 @@
     vqv(Tunico, 30) // Retorna:
       'Oi, meu nome é Tunico!
       Tenho 30 anos,
-      trabalho na Trybe e mando muito em programação!
+      e mando muito em programação!
       #VQV!'
 */
 
@@ -23,11 +23,9 @@ const vqv = (nome, idade) => {
 
   const email = `Oi, meu nome é ${nome}!
 Tenho ${idade} anos,
-trabalho na Trybe e mando muito em programação!
+e mando muito em programação!
 #VQV!`;
   return email;
 };
-console.log(vqv());
-
 
 module.exports = vqv;
